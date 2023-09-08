@@ -155,7 +155,7 @@ const Controller = {
     }
   },
 
-  CreateLabel: async (req, res) => {a
+  CreateLabel: async (req, res) => {
     const { Name, Color, TaskID } = req.body;
 
     try {
